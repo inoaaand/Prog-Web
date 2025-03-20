@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    background-color: rgb(216, 210, 194);
+    background-color: rgb(18, 181, 202);
     text-align: center;
 }
 
@@ -22,12 +22,12 @@ nav {
 .menu li a {
     display: block;
     padding: 15px 20px;
-    color: white;
+    color: rgb(2, 92, 80);
     text-decoration: none
 }
 
 .menu li a:hover {
-    background-color: rgb(177, 116, 87)
+    background-color: rgb(16, 180, 158)
 
 }
 
@@ -35,7 +35,7 @@ nav {
 .subMenu {
     display: none;
     position: absolute;
-    background-color:rgb(177, 116, 87);
+    background-color: rgb(7, 177, 154);
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -43,13 +43,12 @@ nav {
 
 .menu li:hover .subMenu {
     display: block;
-    background-color:rgb(216, 210, 194)
+    background-color: rgb(8, 184, 160)
 }
-
 .subMenu li a {
     padding: 10px 15px;
 }
 
 .subMenu li a:hover {
-    background-color: rgb(177, 116, 87);
+    background-color:  rgb(6, 160, 139);
 }
